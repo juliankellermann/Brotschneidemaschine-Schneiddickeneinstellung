@@ -1,0 +1,66 @@
+Teilfunktionalitäten
+
+Eingabe der Schneiddicke
+
+Messen der Länge des Brotes
+
+Berechnung der Scheibenanzahl
+
+Minimale und maximale Einstellung der Schneiddicke
+
+Anzeige der ausgewählten Dicke und der Menge an Brotscheiben
+
+Funktionale Requirements
+1. Eingabe der Schneiddicke
+
+1.1 Der Benutzer kann die Schneiddicke einstellen.
+1.2 Der Benutzer kann die Schneiddicke mit einem Plus- und einem Minus-Button einstellen.
+
+2. Messen der Länge des Brotes
+
+2.1 Die Länge des Brotes wird automatisch gemessen.
+2.2 Die Messwerte werden gespeichert.
+
+3. Berechnung der Scheibenanzahl
+
+3.1 Die Menge der Brotscheiben wird zuverlässig berechnet.
+
+4. Grenzwerte der Schneiddicke
+
+4.1 Sobald ein Wert die definierte Minimal- oder Maximalgrenze über- oder unterschreitet, kann das Gerät nicht gestartet werden.
+4.2 Sobald ein Wert die Definitionsmenge über- oder unterschreitet, wird eine Warnung ausgegeben.
+
+5. Anzeige
+
+5.1 Beim Drücken eines Buttons wird das Display eingeschaltet.
+5.2 Die Anzeige wird bei jeder Benutzerinteraktion automatisch aktualisiert.
+5.3 Die eingestellte Dicke und die berechnete Menge an Brotscheiben werden angezeigt.
+
+Nicht-funktionale Requirements
+1. Bedienung
+
+1.3 Die Buttons sind ausreichend groß und einfach zu bedienen.
+1.4 Die Funktion der Buttons ist intuitiv und klar erkennbar.
+1.5 Die Dicke der Brotscheiben ist mit einer Schrittweite von 0,5 mm einstellbar.
+1.6 Bei längerem Halten der Knöpfe wird die Scheibendicke schneller verändert.
+
+2. Sensorik
+
+2.3 Die Bestimmung der Brotlänge erfolgt mit möglichst hoher Genauigkeit.
+
+3. Berechnung
+
+3.2 Die Berechnung erfolgt in Echtzeit und ohne wahrnehmbare Verzögerung.
+3.3 Die Berechnung soll nur minimale Rechenleistung beanspruchen.
+
+4. Sicherheit
+
+4.3 Die minimale Einstellung von 0,5 mm darf die Klinge nicht in Kontakt mit dem Anschlag bringen.
+4.4 Die maximale Einstellung von 25 mm muss gegen Überlast gesichert sein.
+
+5. Anzeige
+
+5.3 Die Werte werden in klar verständlicher Form dargestellt.
+5.4 Die Anzeige ist gut lesbar und weder zu hell noch zu dunkel.
+5.5 Die Anzeige wird in Echtzeit bei jeder Eingabe aktualisiert.
+5.6 Die Schrift ist auch für farbenblinde Personen oder Nutzer mit eingeschränktem Sehvermögen gut erkennbar.
