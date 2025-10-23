@@ -1,0 +1,15 @@
+Lastenheft:
+1. Der Benutzer kann die Schneiddicke genau einstellen
+
+Der Benutzer kann die gewünschte Scheibendicke manuell über einen Plus- und einen Minus-Button eingeben.
+Die Eingabe erfolgt in 0,5-Millimeter-Schritten.
+Änderungen der Eingabe werden bei jeder Benutzereingabe aktualisiert und auf dem Display angezeigt.
+
+2. Der Benutzer wird bei einer falschen Eingabe gewarnt, und der Betrieb ist nicht möglich.
+
+3. Der Benutzer kann nachsehen, welche Scheibendicke ausgewählt und welche Stückzahl berechnet wurde.
+Die Anzeige ist auch für ältere Menschen oder Menschen mit Sehbehinderung klar erkennbar.
+
+4. Die Anzeige funktioniert unter Alltagsbedingungen und ist auch nach längerer Nichtbenutzung zuverlässig.
+
+5. Die Anzeige ist weder zu hell noch zu dunkel, auch wenn die Brotschneidemaschine bei Dunkelheit benutzt wird.
