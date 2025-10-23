@@ -2,12 +2,16 @@
 
 **Schichtenarchitektur**:
 
+
+
 - Trennung der Verantwortlichkeiten (Hardwarenahe-Funktionen wie Spannung messen, Anwendungslogik wie Kalibrierung und
   Ladezustandsberechnung, Benutzeroberfläche)
 - Jede Schicht ist unabhängig testbar und austauschbar
 - Segmente nach funktionaler Rolle gruppiert → Kapselung und Entkopplung der Anwendung
 - Jede Schicht darf nur die direkt darunterliegende Schicht ansprechen.
   -Es gibt keine Rückwärtssprünge oder Querkommunikation.
+
+  
 
 
 ##Komponentendiagramm
@@ -18,6 +22,9 @@
 | 3 | **Bread slicer logic (Anwendungslogik/Core)** | Req. 1.5, Req. 1.6, Req. 2.3, Req. 3.1, Req. 4.1, Req. 4.2, Req. 4.3, Req. 4.4 |
 | 2 | **Hardware Abstraction** | Req. 2.1, Req. 2.2 |
 | 1 | **Persistence Manager** | Req. 2.2 |
+
+
+
 
 **Verantwortlichkeiten der Komponenten:**
 
