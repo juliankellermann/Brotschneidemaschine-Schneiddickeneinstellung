@@ -16,6 +16,9 @@
 
 ##Komponentendiagramm
 
+
+![Komponentendiagramm](..docs/referenziert/Komponenten Diagramm.png)
+
 | | **Komponente** | **Requirements** |
 |:-:|:---|:---|
 | 4 | **User Interface (UI)** | Req. 1.1, Req. 1.2, Req. 1.3, Req. 1.4, Req. 5.1, Req. 5.2, Req. 5.3, Req. 5.4, Req. 5.5, Req. 5.6 |
