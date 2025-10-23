@@ -2,13 +2,13 @@
 
 ## Teilfunktionalitäten
 
-* Eingabe der Schneiddicke
+* Eingabe der Schneidicke
 * Messen der Länge des Brotes
 * Berechnung der Scheibenanzahl
-* Minimale und maximale Einstellung der Schneiddicke
+* Minimale und maximale Einstellung der Schneidicke
 * Anzeige der ausgewählten Dicke und der Menge an Brotscheiben
 
-Da du möchtest, dass die Spalte für die Jira-Referenzen leer bleibt, und ich die Prioritäten (**Muss**/**Soll**/**Kann**) für die neuen Anforderungen an eine Brotschneidemaschine zugewiesen habe, hier sind die aktualisierten Tabellen:
+Da du möchtest, dass die Spalte für die Jira-Referenzen leer bleibt, und ich die Prioritäten (**MUSS**/**SOLL**/**KANN**) für die neuen Anforderungen an eine Brotschneidemaschine zugewiesen habe, hier sind die aktualisierten Tabellen:
 
 ---
 
@@ -39,7 +39,7 @@ Die nicht-funktionalen Anforderungen betreffen die Qualität, Sicherheit und Ben
 | :--- | :--- | :--- | :--- | :--- |
 | 1.3 | | Button-Größe und Bedienung | Die Buttons sind ausreichend groß und einfach zu bedienen. | **SOLL** |
 | 1.4 | | Intuitive Button-Funktion | Die Funktion der Buttons ist intuitiv und klar erkennbar. | **SOLL** |
-| 1.5 | | Schrittweite der Dicke | Die Dicke der Brotscheiben ist mit einer Schrittweite von **0,5 mm** einstellbar. | **MUSS** |
+| 1.5 | | Schrittweite der Dicke | Die Dicke der Brotscheiben ist mit einer Schrittweite von 0,5 mm einstellbar. | **MUSS** |
 | 1.6 | | Schnell-Einstellung | Bei längerem Halten der Knöpfe wird die Scheibendicke schneller verändert. | **KANN** |
 | 2.3 | | Messgenauigkeit Brotlänge | Die Bestimmung der Brotlänge erfolgt mit möglichst hoher Genauigkeit. | **SOLL** |
 | 3.2 | | Echtzeit-Berechnung | Die Berechnung erfolgt in Echtzeit und ohne wahrnehmbare Verzögerung. | **SOLL** |
