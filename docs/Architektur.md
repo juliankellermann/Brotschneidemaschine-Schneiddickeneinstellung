@@ -17,7 +17,7 @@
 ##Komponentendiagramm
 
 
-![Komponentendiagramm](..docs/referenziert/Komponenten Diagramm.png)
+![Komponenten Diagramm](referenziert/Komponenten Diagramm.png)
 
 | | **Komponente** | **Requirements** |
 |:-:|:---|:---|
