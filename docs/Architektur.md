@@ -26,4 +26,4 @@
 | **User Interface (UI)** | Schnittstelle zum Benutzer | Aktualisierung des Zustands; Sicherstellung der Benutzerfreundlichkeit und Klarheit der Darstellung. |
 | **Bread slicer logic (Anwendungslogik/Core)** | Geschäftslogik und Steuerung | Berechnen der Scheibenanzahl; Steuern des Mess- und Schneidprozesses; Validieren von Eingabewerten; Auslösen von Warnungen bei Grenzwertverletzung. |
 | **Hardware Abstraction** | Bindeglied zur Sensorik | Liefern der Messwerte (Länge des Brotes); Gewährleistung der Messgenauigkeit; Echtzeit-Datenerfassung. |
-| **Persistence Manager** |  Temporäres Speichern von Messdaten; Bereitstellung von Datenladefunktionen. |
+| **Persistence Manager** |Datenverwaltung|  Temporäres Speichern von Messdaten|
