@@ -19,7 +19,7 @@
 
 ![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
 
-Empfohlene Komponente | Kernaufgaben | Requirements |
+ Komponenten | Kernaufgaben | Requirements |
 | :---------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **4 User Interface (UI)** | Darstellung der Informationen und Verarbeitung der Benutzereingaben. | Req. 1.1, 1.2, 1.3, 1.4, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6 |
 | **3 Application Logic (Core)** | Koordiniert die Abläufe, führt Berechnungen durch und implementiert die Kernfunktionen. | Req. 1.5, 1.6 , Req. 3.1, 3.2, 3.3  |
@@ -30,13 +30,12 @@ Empfohlene Komponente | Kernaufgaben | Requirements |
 
 **Verantwortlichkeiten der Komponenten:**
 
-| **Komponente** | **Rolle** | **Verantwortlichkeiten** |
-|:---|:---|:---|
-| **User Interface (UI)** | Schnittstelle zum Benutzer | Aktualisierung des Zustands; Sicherstellung der Benutzerfreundlichkeit und Klarheit der Darstellung. |
-| **Bread slicer logic (Anwendungslogik/Core)** | Geschäftslogik und Steuerung | Berechnen der Scheibenanzahl; Steuern des Mess- und Schneidprozesses; Validieren von Eingabewerten; Auslösen von Warnungen bei Grenzwertverletzung. |
-| **Hardware Abstraction** | Bindeglied zur Sensorik | Liefern der Messwerte (Länge des Brotes); Gewährleistung der Messgenauigkeit; Echtzeit-Datenerfassung. |
-| **Persistence Manager** |Datenverwaltung|  Temporäres Speichern von Messdaten|
-
+| # Komponente | Requirements | Grund für die Zuordnung |
+| :---------- | :----------- | :---------------------- |
+| **4 User Interface (UI)** | Req. 1.1, 1.2, 1.3, 1.4, 5.1-5.6 | Alle Anforderungen zur **Benutzereingabe und Anzeige**  |
+| **3 Slicing & Business Logic** | Req. 1.5, 1.6, 2.3, 3.1, 3.2, 3.3 | Alle Anforderungen zur **Berechnung** und zur **Kalibrierung/Genauigkeit**|
+| **2 Safety & Motor Control** | Req. 4.1, 4.2, 4.3, 4.4 | Alle Anforderungen zur **Sicherheit und Grenzwertüberwachung** |
+| **1 System & Hardware Services** | Req. 2.1, 2.2 | Alle Anforderungen zur **direkten Messung**  und **Speicherung**  |
 
 ##  Traceability-Matrix für Brotschneidemaschine
 
