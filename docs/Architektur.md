@@ -19,13 +19,12 @@
 
 ![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
 
-| | **Komponente** | **Requirements** |
-|:-:|:---|:---|
-| 4 | **User Interface (UI)** | Req. 1.1, Req. 1.2, Req. 1.3, Req. 1.4, Req. 5.1, Req. 5.2, Req. 5.3, Req. 5.4, Req. 5.5, Req. 5.6 |
-| 3 | **Bread slicer logic (Anwendungslogik/Core)** | Req. 1.5, Req. 1.6, Req. 2.3, Req. 3.1, Req. 4.1, Req. 4.2, Req. 4.3, Req. 4.4 |
-| 2 | **Hardware Abstraction** | Req. 2.1, Req. 2.2 |
-| 1 | **Persistence Manager** | Req. 2.2 |
-
+Empfohlene Komponente | Kernaufgaben | Requirements |
+| :---------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **4 User Interface (UI)** | Darstellung der Informationen und Verarbeitung der Benutzereingaben. | Req. 1.1, 1.2, 1.3, 1.4, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6 |
+| **3 Application Logic (Core)** | Koordiniert die Abläufe, führt Berechnungen durch und implementiert die Kernfunktionen. | Req. 1.5, 1.6 , Req. 3.1, 3.2, 3.3  |
+| **2 Safety & Motor Control** | Verwaltet alle sicherheitsrelevanten Grenzwerte, den Start/Stopp-Zustand und die Ansteuerung des Messers/Motors. | Req. 4.1, 4.2 , Req. 4.3, 4.4  |
+| **1 System & Hardware Services** | Beinhaltet alle Dienste, die direkt mit der Hardware interagieren und Werte speichern. | Hardware Abstraction: Req. 2.1, 2.3 . Persistence: Req. 2.2 (Speicherung). Oder getrennt als Sub-Komponenten: |
 
 
 
