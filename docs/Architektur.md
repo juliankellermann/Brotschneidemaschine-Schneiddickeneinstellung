@@ -11,10 +11,9 @@
 - Jede Schicht darf nur die direkt darunterliegende Schicht ansprechen.
   -Es gibt keine Rückwärtssprünge oder Querkommunikation.
 
-  ## Komponenten Diagramm updaten!!!!
+  ## Komponenten Diagramm
 
 
-##Komponentendiagramm
 
 
 ![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
