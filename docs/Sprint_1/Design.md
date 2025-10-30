@@ -4,4 +4,5 @@ Klassendiagramm für die Requirements, die im ersten Sprint bearbeitet werden so
 
 
 ## Sequenzdiagramm:
+![Sequenzdiagramm](../Sprint_1/Sequenzdiagramm.png)
 
