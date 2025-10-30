@@ -15,7 +15,7 @@
 
 
 ##Komponentendiagramm
-docs/referenziert/Komponentendiagramm.png
+
 
 ![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
 
