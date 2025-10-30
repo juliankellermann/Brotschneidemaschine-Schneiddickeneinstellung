@@ -19,7 +19,7 @@ docs/referenziert/Komponentendiagramm.png
 
 ![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
 
-# Komponenten | Kernaufgaben | Requirements |
+|# Komponenten | Kernaufgaben | Requirements |
 | :---------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **4 User Interface (UI)** | Darstellung der Informationen und Verarbeitung der Benutzereingaben. | Req. 1.1, 1.2, 1.3, 1.4, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6 |
 | **3 Application Logic (Core)** | Koordiniert die Abläufe, führt Berechnungen durch und implementiert die Kernfunktionen. | Req. 1.5, 1.6 , Req. 3.1, 3.2, 3.3  |
