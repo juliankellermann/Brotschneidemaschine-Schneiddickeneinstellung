@@ -1,4 +1,4 @@
-## ✨ Traceability-Matrix (Priorisiert)
+## Traceability-Matrix (Priorisiert)
 
 | Requirement-ID | Jira-Issue | **Komponente** | Klasse(n) | Schnittstelle(n) | Testfall(e) | Priorität |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
