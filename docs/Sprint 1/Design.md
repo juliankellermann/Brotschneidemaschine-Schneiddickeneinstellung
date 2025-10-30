@@ -1,3 +1,3 @@
 ## Klassendiagramm
-Klassendiagramm für die Requirements, die im ersten Sprint bearbeitet werden.
-![Klassendiagramm](referenziert/KlassenDiagramm.png)
+Klassendiagramm für die Requirements, die im ersten Sprint bearbeitet 
+(Brotschneidemaschine-Schneidickeneinstellung/docs/referenziert/KlassenDiagramm.png)
