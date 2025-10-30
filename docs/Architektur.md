@@ -17,7 +17,7 @@
 ##Komponentendiagramm
 docs/referenziert/Komponentendiagramm.png
 
-![Komponenten Diagramm](docs/referenziert/Komponentendiagramm.png)
+![Komponenten Diagramm](referenziert/Komponentendiagramm.png)
 
  Komponenten | Kernaufgaben | Requirements |
 | :---------------------- | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
