@@ -45,5 +45,5 @@
 | **ButtonHandler** | SliceCountCalculator | calculateCount(thickness: float) |
 | **ButtonHandler** | DisplayController | renderParameters(thickness: float, count: int) |
 | **SliceCountCalculator** | LengthSensor | measureLength() |
-| **UserInterface** (als Observer) | SliceCountCalculator (als Subject) | **countUpdatedEvent (float thickness, int count)** |
+| **UserInterface** (als Observer) | SliceCountCalculator (als Subject) | countUpdatedEvent (float thickness, int count) |
 
