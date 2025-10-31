@@ -27,7 +27,7 @@
 
 
 
-**Verantwortlichkeiten der Komponenten:**
+## Verantwortlichkeiten der Komponenten:
 
 | # Komponente | Requirements | Grund für die Zuordnung |
 | :---------- | :----------- | :---------------------- |
@@ -35,4 +35,15 @@
 | **3 Slicing & Business Logic** | Req. 1.5, 1.6, 2.3, 3.1, 3.2, 3.3 | Alle Anforderungen zur **Berechnung** und zur **Kalibrierung/Genauigkeit**|
 | **2 Safety & Motor Control** | Req. 4.1, 4.2, 4.3, 4.4 | Alle Anforderungen zur **Sicherheit und Grenzwertüberwachung** |
 | **1 System & Hardware Services** | Req. 2.1, 2.2 | Alle Anforderungen zur **direkten Messung**  und **Speicherung**  |
+
+## Schnittstellendefinition:
+
+| Ziel | Quelle | Schnittstellen |
+| :---: | :---: | :--- |
+| **thicknessSettingGUI** | ButtonHandler | ButtonLogic(buttonId: int) |
+| **ButtonHandler** | SafetyController | checkStartCondition(thickness: float) |
+| **ButtonHandler** | SliceCountCalculator | calculateCount(thickness: float) |
+| **ButtonHandler** | DisplayController | renderParameters(thickness: float, count: int) |
+| **SliceCountCalculator** | LengthSensor | measureLength() |
+| **UserInterface** (als Observer) | **SliceCountCalculator** (als Subject) | **countUpdatedEvent (float thickness, int count)** |
 
