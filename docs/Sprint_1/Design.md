@@ -1,8 +1,8 @@
 ## Klassendiagramm
 Klassendiagramm für die Requirements, die im ersten Sprint bearbeitet werden sollen
-![Klassendiagramm](../Sprint_1/KlassenDiagramm.png)
+![Klassendiagramm](/../referenziert/KlassenDiagramm.png)
 
 
 ## Sequenzdiagramm:
-![Sequenzdiagramm](../Sprint_1/SequenzDiagramm.png)
+![Sequenzdiagramm](/../referenziert/SequenzDiagramm.png)
 
