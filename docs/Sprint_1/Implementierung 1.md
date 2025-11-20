@@ -2,7 +2,7 @@
 
 | Requirement-ID | Jira-Issue | **Komponente** | Klasse(n) | Schnittstelle(n) | Testfall(e) | **Sprint** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1.1 🟢** | BS-101 | **User Interface (UI)** | ThicknessSettingGUI | getSetThickness() |  | **Sprint 1** |
+| **1.1 🟢** | BS-101 | **User Interface (UI)** | ThicknessSettingGUI | getSetThickness() | I1, I2, I3 | **Sprint 1** |
 | **1.2 🟢** | BS-102 | **User Interface (UI)** | ButtonHandler, ThicknessSettingGUI | handleButtonPress(buttonID) | | **Sprint 1** |
 | **1.3** | BS-103 | **User Interface (UI)** | InputValidation | validateInputSize() | |  |
 | **1.4** | BS-104 | **User Interface (UI)** | ButtonHandler | validateButtonFunction() | |  |
@@ -10,11 +10,11 @@
 | **1.6** | BS-106 | **User Interface (UI)** | ButtonHandler | checkHoldDuration(buttonID) |  |  |
 | **2.1 🟢** | BS-201 | **System & Hardware Services** | LengthSensor | measureLength() || **Sprint 1** |
 | **2.2** | BS-202 | **System & Hardware Services** | MeasurementStorage | saveLengthValue(value) | |  |
-| **2.3** | BS-203 | **Slicing & Business Logic** | LengthSensor | getCalibrationFactor() | |  |
-| **3.1 🟢** | BS-301 | **Slicing & Business Logic** | SliceCountCalculator | calculateSliceCount(length, thickness) | | **Sprint 1** |
+| **2.3🟢** | BS-203 | **Slicing & Business Logic** | LengthSensor | getCalibrationFactor() | I1, M3|**Sprint 1**  |
+| **3.1 🟢** | BS-301 | **Slicing & Business Logic** | SliceCountCalculator | calculateSliceCount(length, thickness) | I1,M2| **Sprint 1** |
 | **3.2** | BS-302 | **Slicing & Business Logic** | CalculationEngine | getCalculationTime() ||  |
 | **3.3** | BS-303 | **Slicing & Business Logic** | ResourceMonitor | checkCPUUsage() |  |  |
-| **4.1 🟢** | BS-401 | **Safety & Motor Control** | SafetyController | checkStartCondition(thickness) |  | **Sprint 1** |
+| **4.1 🟢** | BS-401 | **Safety & Motor Control** | SafetyController | checkStartCondition(thickness) | I2, I3, M3 | **Sprint 1** |
 | **4.2** | BS-402 | **Safety & Motor Control** | SafetyController | checkDomainViolation(value) |  |  |
 | **4.3** | BS-403 | **Safety & Motor Control** | MotorController | validateMinThickness(thickness) ||  |
 | **4.4** | BS-404 | **Safety & Motor Control** | MotorController | validateMaxThickness(thickness) |  |  |
