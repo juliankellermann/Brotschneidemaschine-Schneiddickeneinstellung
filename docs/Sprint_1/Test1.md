@@ -1,6 +1,6 @@
 ## Tests auf Integrationsebene
 
-| Testfall-ID | Module | Vorbedingung (Pre-Condition) | Aktion (Action) | Erwartetes Ergebnis (Expected Result) | Nachbedingung|Korrekt abgelaufen?|
+| Testfall-ID | Module | Vorbedingung  | Aktion  | Erwartetes Ergebnis | Nachbedingung|Korrekt abgelaufen?|
 | :---------- | :----------------------------- | :------ | :----------------- | :----------------- | :------------------| :-------------|
 | **I1** | `thicknessSettingGUI`, `SliceCountCalculator`, `LengthSensor` | Alle Module sind initialisiert. `LengthSensor` ist auf feste Länge von **50.0** eingestellt. | 1. `thicknessSettingGUI` übergibt thickness Wert **2.5** an den `SliceCountCalculator` (Schritte 2 & 3 des Sequenzdiagramms). 2. `SliceCountCalculator` ruft `LengthSensor` auf und erhält **50.0**. | 1. `SliceCountCalculator` berechnet und liefert **20** Scheiben zurück (Schritte 3 & 4). 2. `thicknessSettingGUI` hat den Wert **20** erhalten. |die Scheibenanzahl wird angezeigt|||
 | **I2** | `thicknessSettingGUI`, `SafetyController` | Beide Module sind initialisiert. Der sichere Dickenbereich sei definiert als **$1.0 \le thickness \le 10.0$**. | `thicknessSettingGUI` übergibt den thickness Wert **0.5** an den `SafetyController` (Schritt 5 des Sequenzdiagramms). | `SafetyController` entscheidet, dass die Dicke **NICHT** verarbeitet werden kann (Schritt 6). Das System bleibt im sicheren Zustand, Verarbeitung wird verhindert. |Start ist nicht möglich|||
@@ -10,7 +10,7 @@
 
 
 ## Tests auf Modulebene
-| Testfall-ID | Module | Vorbedingung (Pre-Condition) | Aktion (Action) | Erwartetes Ergebnis (Expected Result) |Nachbedingung|Korrekt abgelaufen?|
+| Testfall-ID | Module | Vorbedingung  | Aktion  | Erwartetes Ergebnis  |Nachbedingung|Korrekt abgelaufen?|
 | :---------- | :----------------------------- | :--------------- | :---------------------- | :----------------------- | :-----------------| :----------------|
 | **M1** | `SafetyController` | Modul ist initialisiert. Der sichere Dickenbereich sei als **$1.0 \le T \le 10.0$** definiert. | Aufruf der Prüfung mit dem Wert **T=1.0** (untere Grenzbedingung). | Rückgabe: **TRUE** (Verarbeitung der Dicke ist erlaubt). |keine Zustandsänderung|
 | **M2**|`SliceCountCalculator` | Die Brotlänge L sei 300.0 (float). Die Scheibendicke T sei 10.0 (float). | Rufe calculateSliceCount(300.0, 10.0) auf. | Die zurückgegebene Anzahl der Scheiben N ist 30 (int). |keine Zustandsänderung|
