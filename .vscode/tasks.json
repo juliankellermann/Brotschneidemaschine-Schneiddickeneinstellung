@@ -13,6 +13,8 @@
                 "\"${workspaceFolder}\\src\\UserInterface\\ThicknessSettingGUI.cpp\"",
                 "\"${workspaceFolder}\\src\\Safety&MotorControl\\SafetyController.cpp\"",
                 "\"${workspaceFolder}\\src\\Slicing&BusinessLogic\\SliceCountCalculator.cpp\"",
+                "\"${workspaceFolder}\\src\\UserInterface\\ButtonHandler.cpp\"",
+                "\"${workspaceFolder}\\src\\UserInterface\\DisplayRenderer.cpp\"",
                 "\"${workspaceFolder}\\src\\tests\\main.cpp\""
             ],
             "options": {
