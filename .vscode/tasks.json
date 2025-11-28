@@ -12,7 +12,8 @@
                 "\"${workspaceFolder}\\src\\System&HardwareControl\\LengthSensor.cpp\"",
                 "\"${workspaceFolder}\\src\\UserInterface\\ThicknessSettingGUI.cpp\"",
                 "\"${workspaceFolder}\\src\\Safety&MotorControl\\SafetyController.cpp\"",
-                "\"${workspaceFolder}\\src\\Slicing&BusinessLogic\\SliceCountCalculator.cpp\""
+                "\"${workspaceFolder}\\src\\Slicing&BusinessLogic\\SliceCountCalculator.cpp\"",
+                "\"${workspaceFolder}\\src\\tests\\main.cpp\""
             ],
             "options": {
                 "cwd": "${fileDirname}"
