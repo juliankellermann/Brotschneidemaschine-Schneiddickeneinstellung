@@ -3,7 +3,6 @@
 #include <cmath>
 #include <string>
 
-// Binden Sie hier Ihre Header-Dateien ein
 
 #include "../System&HardwareControl/LengthSensor.h"
 #include "../UserInterface/ThicknessSettingGUI.h"
@@ -11,7 +10,6 @@
 #include "../Slicing&BusinessLogic/SliceCountCalculator.h"
 
 
-// Hilfsfunktion für schöne Ausgaben
 void printTestResult(const std::string& testID, bool passed, const std::string& message) {
     if (passed) {
         std::cout << "[PASS] " << testID << ": " << message << std::endl;
