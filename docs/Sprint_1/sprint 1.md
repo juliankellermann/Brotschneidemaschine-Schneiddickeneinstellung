@@ -5,14 +5,12 @@ In ButtonHandler.cpp SliceCountCalculator.h und .cpp calculateCount müsste calc
 # Erkentnisse und Verbesserungen
 Obwohl die aktuelle Implementierung funktional vollständig ist und alle Anforderungen erfüllt, habe ich während der Entwicklung Potenziale zur Steigerung der Softwarequalität identifiziert, die ich in den kommenden Sprints adressieren werde.
 
-1.
-Architektur: Entkopplung durch Interfaces Aktuell nutzen meine Klassen (z. B. SliceCountCalculator) direkt die konkreten Implementierungen der Hardware-Komponenten (z. B. LengthSensor). Dies funktioniert im Betrieb einwandfrei, erschwert jedoch isolierte Unit-Tests, da ich für Testzwecke Eingriffe in den Produktionscode vornehmen musste (z. B. Setter für simulierte Werte).
+1.Architektur: Entkopplung durch Interfaces Aktuell nutzen meine Klassen (z. B. SliceCountCalculator) direkt die konkreten Implementierungen der Hardware-Komponenten (z. B. LengthSensor). Dies funktioniert im Betrieb einwandfrei, erschwert jedoch isolierte Unit-Tests, da ich für Testzwecke Eingriffe in den Produktionscode vornehmen musste (z. B. Setter für simulierte Werte).
 
 Plan: Einführung von Interfaces (Abstrakten Klassen) für alle Hardware-Treiber.
 Ziel: Dies ermöglicht die Anwendung des Dependency Inversion Principles. Ich kann dann im Testbetrieb "Mock-Objekte" verwenden, ohne den produktiven Code zu verändern.
 
-2. 
-Design-Konsistenz & Traceability Im Laufe der Implementierung hat sich der Code an einigen Stellen weiterentwickelt als ursprünglich im Design vorgesehen. Ein Beispiel ist der DisplayRenderer, der funktional erweitert wurde, um auch den Sicherheitsstatus (isSafetyOK) zu visualisieren. Auch weichen einzelne Methodennamen im Code leicht von der Planung ab.
+2.Design-Konsistenz & Traceability Im Laufe der Implementierung hat sich der Code an einigen Stellen weiterentwickelt als ursprünglich im Design vorgesehen. Ein Beispiel ist der DisplayRenderer, der funktional erweitert wurde, um auch den Sicherheitsstatus (isSafetyOK) zu visualisieren. Auch weichen einzelne Methodennamen im Code leicht von der Planung ab.
 
 Plan: Durchführung eines Re-Engineering-Schritts, um die UML-Diagramme und die Traceability-Matrix an den tatsächlichen, funktionierenden Code anzupassen.
 Ziel: Sicherstellung einer lückenlosen Übereinstimmung zwischen Dokumentation und Code ("Single Source of Truth"), um die langfristige Wartbarkeit zu gewährleisten.
