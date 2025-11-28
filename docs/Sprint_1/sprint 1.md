@@ -10,10 +10,13 @@ Obwohl die aktuelle Implementierung funktional vollständig ist und alle Anforde
 Plan: Einführung von Interfaces (Abstrakten Klassen) für alle Hardware-Treiber.
 Ziel: Dies ermöglicht die Anwendung des Dependency Inversion Principles. Ich kann dann im Testbetrieb "Mock-Objekte" verwenden, ohne den produktiven Code zu verändern.
 
+
 2.Design-Konsistenz & Traceability Im Laufe der Implementierung hat sich der Code an einigen Stellen weiterentwickelt als ursprünglich im Design vorgesehen. Ein Beispiel ist der DisplayRenderer, der funktional erweitert wurde, um auch den Sicherheitsstatus (isSafetyOK) zu visualisieren. Auch weichen einzelne Methodennamen im Code leicht von der Planung ab.
 
 Plan: Durchführung eines Re-Engineering-Schritts, um die UML-Diagramme und die Traceability-Matrix an den tatsächlichen, funktionierenden Code anzupassen.
 Ziel: Sicherstellung einer lückenlosen Übereinstimmung zwischen Dokumentation und Code ("Single Source of Truth"), um die langfristige Wartbarkeit zu gewährleisten.
+
+
 
 # Baseline: Projektstand Ende Sprint 1
 
