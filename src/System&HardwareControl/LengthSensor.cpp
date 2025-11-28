@@ -2,7 +2,9 @@
 #include <iostream>
 
 // Wir definieren eine feste, simulierte Länge für das Brot in mm.
-const float SIMULATED_LENGTH = 250.0f; // Simulierte Länge in mm
+void LengthSensor::setSimulatedLenghth(float length){
+    simulatedLength = length; 
+} // Simulierte Länge in mm
 float LengthSensor::measureLength()
 {
 // Ausgabe zur Protokollierung
