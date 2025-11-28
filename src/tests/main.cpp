@@ -44,7 +44,7 @@ int main() {
         float thickness = 10.0f;
 
         // Aktion: Berechne Anzahl
-        int count = calc.calculateCount(sensor, thickness);
+        int count = calc.calculateSliceCount(sensor, thickness);
 
         // Erwartetes Ergebnis: 30 (300 / 10)
         printTestResult("M2", count == 30, "SliceCountCalculator (300mm / 10mm = 30)");
@@ -80,7 +80,7 @@ int main() {
         float thicknessInput = 2.5f; 
 
         // Aktion 2: Calculator ruft Sensor auf und berechnet
-        int slices = calc.calculateCount(sensor, thicknessInput);
+        int slices = calc.calculateSliceCount(sensor, thicknessInput);
 
         // Erwartetes Ergebnis: 20 Scheiben (50 / 2.5)
         printTestResult("I1", slices == 20, "Integration: 50mm Brot / 2.5mm Dicke = 20 Scheiben");

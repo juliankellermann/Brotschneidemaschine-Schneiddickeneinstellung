@@ -1,7 +1,7 @@
 #include "SliceCountCalculator.h"
 #include <iostream>
 
-int SliceCountCalculator::calculateCount(LengthSensor &lengthSensor, float thickness)
+int SliceCountCalculator::calculateSliceCount(LengthSensor &lengthSensor, float thickness)
 {
     // 1. Länge anfordern
     float length = lengthSensor.measureLength();

@@ -13,7 +13,7 @@ void ButtonHandler::triggerBusinessLogic()
     float currentThickness = gui.getThickness();
 
     // 1. Scheibenanzahl berechnen
-    int sliceCount = calculator.calculateCount(sensor, currentThickness);
+    int sliceCount = calculator.calculateSliceCount(sensor, currentThickness);
 
     // 2. Sicherheitsprüfung durchführen
     // thickness Wert wird an SafetyController übergeben
