@@ -2,13 +2,13 @@
 #include <iostream>
 
 // Wir definieren eine feste, simulierte Länge für das Brot in mm.
-void LengthSensor::setSimulatedLenghth(float length){
+void LengthSensor::setSimulatedLength(float length){
     simulatedLength = length; 
 } // Simulierte Länge in mm
 float LengthSensor::measureLength()
 {
 // Ausgabe zur Protokollierung
     std::cout << "LengthSensor: Automatische Messung durchgeführt. Ergebnis: " 
-               << SIMULATED_LENGTH << " mm." << std::endl;
-    return SIMULATED_LENGTH;
+               << simulatedLength << " mm." << std::endl;
+    return simulatedLength;
 }

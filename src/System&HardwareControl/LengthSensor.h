@@ -4,7 +4,7 @@
 class LengthSensor
 {
 private:
-    float simulateLength = 250.0f; //Standartwert
+    float simulatedLength = 250.0f; //Standartwert
 public:
     // Simuliert die Messung der Länge des Brotes
     float measureLength();
