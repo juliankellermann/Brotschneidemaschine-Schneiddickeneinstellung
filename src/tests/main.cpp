@@ -61,8 +61,7 @@ int main() {
         float measured = sensor.measureLength();
 
         // Erwartetes Ergebnis: 200.0
-        // Hinweis: Bei Float-Vergleichen sollte man eigentlich Epsilon verwenden,
-        // aber für diesen Test reicht == meist aus, da wir harte Zuweisungen machen.
+       
         printTestResult("M3", std::abs(measured - 200.0f) < 0.001f, "LengthSensor misst 200.0mm");
     }
 
